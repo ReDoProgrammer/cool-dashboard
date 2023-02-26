@@ -1,7 +1,8 @@
 import { Typography } from "antd";
 
 function AppFooter(){
-    return <div className="AppFooter">
+    return (
+        <div className="AppFooter">
         <Typography.Link href="tel:+8491137764" target={'_blank'}>
             +84911397764
         </Typography.Link>
@@ -12,6 +13,7 @@ function AppFooter(){
             Terms of use
         </Typography.Link>
     </div>
+    );
 }
 
 export default AppFooter;
